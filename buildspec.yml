@@ -1,5 +1,4 @@
 version: 0.2
-
  env:
 
   variables:
@@ -17,7 +16,6 @@ version: 0.2
  
 
 phases:
-
   pre_build:
 
     commands:
@@ -43,7 +41,6 @@ phases:
  
 
   build:
-
     commands:
 
       - echo Build started on `date`
@@ -57,7 +54,6 @@ phases:
  
 
   post_build:
-
     commands:
 
       - echo Build completed on `date`
@@ -75,7 +71,6 @@ phases:
  
 
 artifacts:
-
   files:
 
     - imagedefinition.json
